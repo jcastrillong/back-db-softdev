@@ -7,9 +7,9 @@
 
 ## Installation
 
-`git clone https://github.com/jcastrillong/project-db-softdev.git` to clone the repository
+`git clone https://github.com/jcastrillong/back-db-softdev.git` to clone the repository
 
-`cd project-db-softdev` to go into the project root
+`cd back-db-softdev` to go into the project root
 
 `npm install` to install the dependencies
 
