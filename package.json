@@ -1,0 +1,33 @@
+{
+  "name": "backend-proyect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "authors": [
+    "Jhonatan Castrillon <jhonatancastrillon34@gmail.com>",
+    "Natalia Saldaña <natalia.2002.saldana@gmail.com>",
+    "Juan Jose Toro <jujotogon@gmail.com>",
+    "Jerson Rios <jerson.27rios@gmail.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.2",
+    "eslint-plugin-promise": "^6.0.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4"
+  }
+}
