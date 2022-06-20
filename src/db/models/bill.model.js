@@ -9,6 +9,7 @@ const BillSchema = {
   idBill: {
     type: DataTypes.INTEGER,
     primaryKey: true,
+    autoIncrement: true,
     field: 'id_bill'
   },
   wayToPay: {

@@ -31,10 +31,10 @@ router.get('/:id',
   }
 )
 
-router.post('/:id',
+router.post('/',
   async (req, res, next) => {
     try {
-      const newBill = controller.create(req.body)
+      const newBill = await controller.create(req.body)
       res.status(201).json({
         message: 'Factura Creada',
         data: newBill

@@ -11,12 +11,10 @@ const LocalStrategy = new Strategy(async (username, password, done) => {
     if (!employee) {
       return done(boom.unauthorized(), false)
     }
-    console.log('Employee: ', employee)
     const isMatch = await bcrypt.compare(password, employee.password)
     if (!isMatch) {
       done(boom.unauthorized(), false)
     }
-    console.log('Match')
 
     delete employee.dataValues.password
     return done(null, employee)
